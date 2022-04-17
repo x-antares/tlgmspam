@@ -1,3 +1,7 @@
+import configparser
+
+config = configparser.ConfigParser()
+
 config.read('data.ini')
 
 api_id = config.get('user_data', 'api_id')
