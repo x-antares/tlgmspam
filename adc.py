@@ -4,9 +4,6 @@ from telethon.tl.functions.messages import AddChatUserRequest
 from telethon.tl.types import InputPhoneContact
 from telethon.tl.functions.contacts import ImportContactsRequest
 from telethon import functions, types
-#from conf import api_id
-#from conf import api_hash
-#from conf import phone
 import time
 
 api_id = 14705741
