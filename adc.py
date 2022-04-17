@@ -22,8 +22,8 @@ if not client.is_user_authorized():
             
 with open("phones.txt") as file:
     for idx, add_phone in enumerate(file):
-        fn = idx
-        ln = idx
+        fn = str(idx+1)
+        ln = str(idx+1)
         contact = InputPhoneContact(client_id = 0, phone = add_phone, first_name=fn, last_name=ln)
         result =  client(ImportContactsRequest([contact]))
         
