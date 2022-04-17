@@ -16,8 +16,6 @@
 
 	# You will get the api_id and api_hash parameters required for user authorization. 
 	
-	# After this you must fill out file data.ini yours data
-
 	# Secondly you must install all library that we use to start |-> pip3 install -r requirements.txt <-|
 	
 
@@ -30,4 +28,4 @@
 	# Next use |-> python3 prs_rqst.py <-| for parse data from your telegram account and then |-> python3 str_get_ids.py <-| this 		
 	# actions will creat user_ids.txt file for another command 
 	
-	# Then start command |-> pyhton3 snd_msg.py <-| it send your spamm-message to another user
+	# Then start command |-> python3 snd_msg.py <-| it send your spamm-message to another user
