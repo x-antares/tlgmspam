@@ -4,10 +4,13 @@ from telethon.tl.functions.messages import AddChatUserRequest
 from telethon.tl.types import InputPhoneContact
 from telethon.tl.functions.contacts import ImportContactsRequest
 from telethon import functions, types
-from conf import api_id
-from conf import api_hash
-from conf import phone
+#from conf import api_id
+#from conf import api_hash
+#from conf import phone
 
+api_id = 14705741
+api_hash = '28680abc0e9e0a5f8d0b85cc8a45c8bb'
+phone = '+380988437624'
 
 client = TelegramClient(phone, api_id, api_hash)
 

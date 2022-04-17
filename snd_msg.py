@@ -2,10 +2,14 @@
 
 from telethon.sync import TelegramClient
 from telethon.tl.types import InputPeerUser
-from conf import api_id
-from conf import api_hash
-from conf import phone
-from conf import txt_spam
+#from conf import api_id
+#from conf import api_hash
+#from conf import phone
+#from conf import txt_spam
+
+api_id = 14705741
+api_hash = '28680abc0e9e0a5f8d0b85cc8a45c8bb'
+phone = '+380988437624'
 
 
 SLEEP_TIME = 30
