@@ -11,6 +11,7 @@ from telethon import functions, types
 api_id = 14705741
 api_hash = '28680abc0e9e0a5f8d0b85cc8a45c8bb'
 phone = '+380988437624'
+SLEEP_TIME = 30
 
 client = TelegramClient(phone, api_id, api_hash)
 
@@ -26,6 +27,8 @@ with open("phones.txt") as file:
         ln = str(idx+1)
         contact = InputPhoneContact(client_id = 0, phone = add_phone, first_name=fn, last_name=ln)
         result =  client(ImportContactsRequest([contact]))
+        print("Waiting {} seconds".format(SLEEP_TIME))
+        time.sleep(SLEEP_TIME)
         
         
 print("All contacts added successfull!!")        
