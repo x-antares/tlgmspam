@@ -1,8 +1,5 @@
 from telethon.sync import TelegramClient
 from telethon import functions, types
-#from conf import api_id
-#from conf import api_hash
-#from conf import phone
 
 api_id = 14705741
 api_hash = '28680abc0e9e0a5f8d0b85cc8a45c8bb'
