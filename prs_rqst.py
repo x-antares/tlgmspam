@@ -10,7 +10,7 @@ with TelegramClient(phone, api_id, api_hash) as client:
         hash=0
     ))
     print(result.stringify())
-    file = open('read.txt', 'w')
+    file = open('read.txt', 'w', encoding="utf-8")
     file.write(result.stringify())
     file.close()
     
